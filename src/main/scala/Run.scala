@@ -42,5 +42,20 @@ object Run extends App {
   }
   println(result3)
 
+  // anonymous fxn
+  val add = (z: Int, y: Int) => z + y
+
+  // list
+  val names = List("john", "kwesi", "erbynn")
+  println(names)
+  println(1::names)
+  println(names.head)
+  println(names.tail)
+  println(List.fill(5)(3))
+
+  for (name <- names) println(name)
+  names.foreach(println)
+
+
 
 }
